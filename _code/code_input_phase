@@ -1,0 +1,20 @@
+//there's the code progress for the first day (22.11.2024)
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+// Ввод слова для игры - массив с тем же кол вом символов, но пустой
+//The input is a word ─ array with simmilar amount of empty slots
+//There is input phase of code. User making a word and typing it. The other user should guess it.
+
+int main() {
+    int osib = 0;
+    int max_osib = 10;
+    int sl_size = 0;
+    cout << "Ведите кол-во букв в вашем слове: ";
+    cin >> sl_size; 
+    string slovo = "";
+    cout << "Введите ваше слово: ";
+    cin >> slovo;
+}
